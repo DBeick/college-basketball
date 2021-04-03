@@ -86,38 +86,38 @@ Data from the 2013, 2014, 2015, 2016, 2017, 2018, and 2019 Division I college ba
 ### Variables<a name="variables"></a>
 `TEAM`: The Division I college basketball school
 
-`CONF`: The Athletic Conference in which the school participates
-    `A10` = Atlantic 10, 
-    `ACC` = Atlantic Coast Conference, 
-    `AE` = America East, 
-    `Amer` = American, 
-    `ASun` = ASUN, 
-    `B10` = Big Ten, 
-    `B12` = Big 12, 
-    `BE` = Big East, 
-    `BSky` = Big Sky, 
-    `BSth` = Big South, 
-    `BW` = Big West, 
-    `CAA` = Colonial Athletic Association, 
-    `CUSA` = Conference USA, 
-    `Horz` = Horizon League, 
-    `Ivy` = Ivy League, 
-    `MAAC` = Metro Atlantic Athletic Conference, 
-    `MAC` = Mid-American Conference, 
-    `MEAC` = Mid-Eastern Athletic Conference, 
-    `MVC` = Missouri Valley Conference, 
-    `MWC` = Mountain West, 
-    `NEC` = Northeast Conference, 
-    `OVC` = Ohio Valley Conference, 
-    `P12` = Pac-12, 
-    `Pat` = Patriot League, 
-    `SB` = Sun Belt, 
-    `SC` = Southern Conference, 
-    `SEC` = South Eastern Conference, 
-    `Slnd` = Southland Conference, 
-    `Sum` = Summit League, 
-    `SWAC` = Southwestern Athletic Conference, 
-    `WAC` = Western Athletic Conference, 
+`CONF`: The Athletic Conference in which the school participates  
+    `A10` = Atlantic 10,  
+    `ACC` = Atlantic Coast Conference,  
+    `AE` = America East,  
+    `Amer` = American,  
+    `ASun` = ASUN,  
+    `B10` = Big Ten,  
+    `B12` = Big 12,  
+    `BE` = Big East,  
+    `BSky` = Big Sky,  
+    `BSth` = Big South,  
+    `BW` = Big West,  
+    `CAA` = Colonial Athletic Association,  
+    `CUSA` = Conference USA,  
+    `Horz` = Horizon League,  
+    `Ivy` = Ivy League,  
+    `MAAC` = Metro Atlantic Athletic Conference,  
+    `MAC` = Mid-American Conference,  
+    `MEAC` = Mid-Eastern Athletic Conference,  
+    `MVC` = Missouri Valley Conference,  
+    `MWC` = Mountain West,  
+    `NEC` = Northeast Conference,  
+    `OVC` = Ohio Valley Conference,  
+    `P12` = Pac-12,  
+    `Pat` = Patriot League,  
+    `SB` = Sun Belt,  
+    `SC` = Southern Conference,  
+    `SEC` = South Eastern Conference,  
+    `Slnd` = Southland Conference,  
+    `Sum` = Summit League,  
+    `SWAC` = Southwestern Athletic Conference,  
+    `WAC` = Western Athletic Conference,  
     `WCC` = West Coast Conference
 
 `G`: Number of games played
@@ -158,15 +158,15 @@ Data from the 2013, 2014, 2015, 2016, 2017, 2018, and 2019 Division I college ba
 
 `WAB`: Wins Above Bubble (The bubble refers to the cut off between making the NCAA March Madness Tournament and not making it)
 
-`POSTSEASON`: Round where the given team was eliminated or where their season ended (
-    R68 = First Four,  
-    R64 = Round of 64,  
-    R32 = Round of 32,  
-    S16 = Sweet Sixteen,  
-    E8 = Elite Eight,  
-    F4 = Final Four,  
-    2ND = Runner-up,  
-    Champion = Winner of the national championship game for that given year)
+`POSTSEASON`: Round where the given team was eliminated or where their season ended  
+    `R68` = First Four,  
+    `R64` = Round of 64,  
+    `R32` = Round of 32,  
+    `S16` = Sweet Sixteen,  
+    `E8` = Elite Eight,  
+    `F4` = Final Four,  
+    `2ND` = Runner-up,  
+    `Champion` = Winner of the national championship game for that given year
 
 `SEED`: Seed in the NCAA Men's Division I Basketball Tournament
 
