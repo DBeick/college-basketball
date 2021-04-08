@@ -124,6 +124,10 @@ Data from the 2013, 2014, 2015, 2016, 2017, 2018, and 2019 Division I college ba
 
 `W`: Number of games won
 
+`PRE_PC`: Percentage of games won prior to postseason tournament
+
+`POST_PC`: Percentage of games won following postseason tournament
+
 `ADJOE`: Adjusted Offensive Efficiency (An estimate of the offensive efficiency (points scored per 100 possessions) a team would have against the average Division I defense)
 
 `ADJDE`: Adjusted Defensive Efficiency (An estimate of the defensive efficiency (points allowed per 100 possessions) a team would have against the average Division I offense)
@@ -170,6 +174,8 @@ Data from the 2013, 2014, 2015, 2016, 2017, 2018, and 2019 Division I college ba
 
 `SEED`: Seed in the NCAA Men's Division I Basketball Tournament
 
+`PFPC`: Performance Percentile (Percent of total teams that season whom the team outperformed, based on postseason finish, i.e. postseason champion bested all other teams, so it ranks 1.0, while a team finishing in the "Elite Eight" was better than all teams but eight, so it ranks roughly around 0.97
+
 `YEAR`: Season
 
 ## Results<a name="results"></a>
@@ -186,6 +192,8 @@ Creator URL: https://www.kaggle.com/andrewsundberg
 Accessed: April 2, 2021  
 
 #### Adjustments<a name="adjustments"></a>
-I made a two adjustments to the data to perform better analysis:
+I made a these adjustments to the data to perform better analysis:
 * Combined the season-by-season sets rather than use the pre-combined set, due to missing data in the `Postseason` column
-* Inverted the DRB column (100 - value) to properly reflect Defensive Rebound Rate, instead of the original Offensive Rebound Rate Allowed
+* Added columns denoting win percentage both before and after postseason tournament
+* Added column denoting performance percentile
+* Inverted the column `DRB` (100 - value) to properly reflect Defensive Rebound Rate, instead of the original Offensive Rebound Rate Allowed
