@@ -20,61 +20,16 @@ Home project for analysis of men's basketball performance in 2013-19 seasons
 Data analysis in sports has become commonplace in the 21st century, with people ranging from casual fans to franchise executives digging into numbers to better understand team performance. The goal of this analysis is to perform a rough look at offensive and defensive performance and their relation to team success in a personal favorite sport of mine, collegiate basketball.
 
 ### Questions<a name="questions"></a>
-1. Does a team's superiority in its conference correlate to postseason success?
-Superiority is determined by how many standard deviations the team's rating is above the mean of its conference in these categories:
-    * Win rate
-    * Offensive efficiency
-    * Defensive efficiency
-    * Net field goal percentage
+1. Which conferences produce the best offenses and the best defenses each year?
+    1. Looking at year-by-year results, which conferences performed the best.
+    2. Looking at cumulative results, which conferences performed the best.
+2. Is a team with a better offense or a better defense more likely to have the most wins?
+    1. Looking at season win totals, prior to postseason tournament.
+    2. Looking at performance in the postseason tournament.
+3. Is there a bias toward the "Power Five" (P5) conferences (ACC, Big Ten, Big 12, Pac-12, SEC) in how the postseason tournament is seeded?
+    1. Looking at the average power ranking (`BARTHAG`) of P5 teams with a top seed (1-4), and comparing to the average power ranking of teams not in the P5 who earned a top seed.
+    2. Comparing the non-P5 teams, if any, who had a better power ranking than any top-seeded P5 teams by seeing which team performed better in the postseason tournament.
 
-2. In general, do defensively-minded teams perform better or worse in any statistically significant way compared to offensively-minded teams?
-    * Defensive statistics:
-        * Defensive Efficiency
-        * Field goal percentage allowed
-        * Turnover percentage committed
-        * Defensive rebound rate
-        * Free throw rate allowed
-        * Adjusted tempo (at lower rates)
-    * Offensive statistics:
-        * Offensive Efficiency
-        * Field goal percentage
-        * Turnover percentage allowed
-        * Offensive rebound rate
-        * Free throw rate
-        * Adjusted tempo (at higher rates)
-
-3. What category of statistic, if any, has the strongest correlation to postseason performance?
-    * Power rating
-    * Offensive efficiency
-    * Defensive efficiency
-    * Combined efficiency
-    * Field goal percentage rate
-    * Combined rebound rate
-    * Net turnover rate
-
-4. Does a combination of possessions and field goal shooting percentage strongly, weakly, or not at all correlate to win rate and/or postseason success?
-One specific point to investigate revolves around a seemingly obvious concept: the team who is able to score more points wins more often. The most points can simply come from having more possessions than the opponent AND scoring more efficiently (better shooting rate) than the opponent. Do teams that both create more possessions and convert more possessions into points tend to perform the best in the championship tournament?
-    * Varibles related to possessions:
-        * Rebound rate
-        * Turnover rate
-        * Tempo
-    * Variables related to scoring efficiency:
-        * Effective field goal percentage
-
-
-### Other questions outside this analysis<a name="out_of_scope"></a>
-This dataset, while robust, represents only a portion of the data surrounding each team. Further questions that would be interesting to investigate, provided more data, are:
-1. How does a team's dependence on its starting five players correlate to postseason success?
-The quick-succession championship tournament is famously exhausting for players, with teams playing in two out of three days on three successive weekends. Do teams that depend on a small number of players, and therefore may be more likely to see the effects of fatigue in such an intense tournament, show any more or less success in the tournament?
-    * To answer this question would require data on minutes played per player per team.
-
-2. How do injuries affect team performance in the championship tournament?
-The loss of an important player due to injury could be a significant factor in predicting the success of a team at any time in the season. Does a team suffering such an injury immediately before or during the tournament, therefore having little to no time to practice with a different strategy, have any more or less success in the tournament?
-    * To answer this question would require data on minutes played per player per team and whether a given player missed some or all of a game due to injury.
-
-3. How does game-by-game 'momentum' play out in the postseason tournament?
-Momentum is a popular concept in sports, wherein a team that is performing well in-game will continue to perform well. Similarly, a team may have game-by-game momentum, where a winning streak may be more likely to continue the longer it goes on (or at least, some folks may like to think so). Does a team that comes into the postseason riding a winning streak tend to perform better than one that does not have a notable active win streak?
-    * To answer this question would require data on when wins and losses occurred for a team, and for further insight it would be helpful to have data on performance in the team's conference championship tournament.
 
 ## Notebooks<a name="notebooks"></a>
 
@@ -197,3 +152,4 @@ I made a these adjustments to the data to perform better analysis:
 * Added columns denoting win percentage both before and after postseason tournament
 * Added column denoting performance percentile
 * Inverted the column `DRB` (100 - value) to properly reflect Defensive Rebound Rate, instead of the original Offensive Rebound Rate Allowed
+* Fixed inconsistency in how teams without a conference affiliation were labeled in the dataset, specifically putting all such teams as being in conference 'Ind' to represent independence from a conference.
