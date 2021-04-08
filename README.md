@@ -26,9 +26,9 @@ Data analysis in sports has become commonplace in the 21st century, with people 
 2. Is a team with a better offense or a better defense more likely to have the most wins?
     1. Looking at season win totals, prior to postseason tournament.
     2. Looking at performance in the postseason tournament.
-3. Is there a bias toward the "Power Five" (P5) conferences (ACC, Big Ten, Big 12, Pac-12, SEC) in how the postseason tournament is seeded?
-    1. Looking at the average power ranking (`BARTHAG`) of P5 teams with a top seed (1-4), and comparing to the average power ranking of teams not in the P5 who earned a top seed.
-    2. Comparing the non-P5 teams, if any, who had a better power ranking than any top-seeded P5 teams by seeing which team performed better in the postseason tournament.
+3. Is there a bias toward the "Major" conferences (ACC, Big East, Big Ten, Big 12, Pac-12, SEC) in how the postseason tournament is seeded?
+    1. Looking at the average power ranking (`BARTHAG`) of major conference teams with a top seed (1-4), and comparing to the average power ranking of teams not in a major conference who earned a top seed.
+    2. Comparing the non-major teams, if any, who had a better power ranking than any top-seeded P5 teams by seeing which team performed better in the postseason tournament.
 
 
 ## Notebooks<a name="notebooks"></a>
