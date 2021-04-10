@@ -15,6 +15,11 @@ Home project for analysis of men's basketball performance in 2013-19 seasons
     2. [Adjustments](#adjustments)
 
 ## Installation<a name="installation"></a>
+This project makes use of the following python libraries:
+- jupyter
+- pandas
+- numpy
+- matplotlib
 
 ## Purpose<a name="purpose"></a>
 Data analysis in sports has become commonplace in the 21st century, with people ranging from casual fans to franchise executives digging into numbers to better understand team performance. The goal of this analysis is to perform a rough look at offensive and defensive performance and their relation to team success in a personal favorite sport of mine, collegiate basketball.
@@ -32,6 +37,8 @@ Data analysis in sports has become commonplace in the 21st century, with people 
 
 
 ## Notebooks<a name="notebooks"></a>
+main.ipynb -- Primary notebook for this project. Reads in the dataset and presents data for analysis of all questions.
+create_dataset.ipynb -- Auxiliary notebook for building the dataset used in this project. It reads in seven independent datasets, makes appropriate changes to the data, such as correcting inconsistencies and creating additional columns, and saves the result in a single large csv.
 
 ## Data<a name="data"></a>
 
