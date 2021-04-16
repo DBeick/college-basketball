@@ -37,7 +37,7 @@ Data analysis in sports has become commonplace in the 21st century, with people 
 
 
 ## Notebooks<a name="notebooks"></a>
-main.ipynb -- Primary notebook for this project. Reads in the dataset and presents data for analysis of all questions.
+main.ipynb -- Primary notebook for this project. Reads in the dataset and presents data for analysis of all questions.  
 create_dataset.ipynb -- Auxiliary notebook for building the dataset used in this project. It reads in seven independent datasets, makes appropriate changes to the data, such as correcting inconsistencies and creating additional columns, and saves the result in a single large csv.
 
 ## Data<a name="data"></a>
