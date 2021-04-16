@@ -142,7 +142,7 @@ Data from the 2013, 2014, 2015, 2016, 2017, 2018, and 2019 Division I college ba
 
 ## Results<a name="results"></a>
 
-The main findings of this project are explained in this [post].
+The main findings of this project are explained in this [post](https://medium.com/@dbeickcodes/1e3f8c46a2).
 
 ## Liscensing, Authors, and Acknowledgements<a name="liscensing"></a>
 ### Acknowledgments<a name="acknowledgments"></a>
