@@ -37,8 +37,9 @@ Data analysis in sports has become commonplace in the 21st century, with people 
 
 
 ## Notebooks<a name="notebooks"></a>
-main.ipynb -- Primary notebook for this project. Reads in the dataset and presents data for analysis of all questions.  
-create_dataset.ipynb -- Auxiliary notebook for building the dataset used in this project. It reads in seven independent datasets, makes appropriate changes to the data, such as correcting inconsistencies and creating additional columns, and saves the result in a single large csv.
+1_understand_explore.ipynb -- Notebook for posing initial questions and exploring the data we have available. We explore columns that may be of use in answering our questions, and also discover some data errors that we later address when cleaning and preparing the data set.  
+2_clean_prepare.ipynb -- Notebook for building the dataset used in this project. It reads in seven independent datasets, makes appropriate changes to the data, such as correcting inconsistencies and creating additional columns, and saves the result in a single large csv.  
+3_evaluate_analyze.ipynb -- Notebook for project analysis and conclusions. We address in turn each question we posed at the outset, and then draw conclusions based on our findings.  
 
 ## Data<a name="data"></a>
 
@@ -159,4 +160,5 @@ I made a these adjustments to the data to perform better analysis:
 * Added columns denoting win percentage both before and after postseason tournament
 * Added column denoting performance percentile
 * Inverted the column `DRB` (100 - value) to properly reflect Defensive Rebound Rate, instead of the original Offensive Rebound Rate Allowed
+* Fixed two instances where teams were ascribed the wrong seeds in the postseason tournament. This is described in detail in notebooks 1 and 2.
 * Fixed inconsistency in how teams without a conference affiliation were labeled in the dataset, specifically putting all such teams as being in conference 'Ind' to represent independence from a conference.
